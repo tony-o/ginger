@@ -1,0 +1,6 @@
+{
+  userid:null
+  ,title:""
+  ,status:["open","closed"]
+  ,notes:""
+}

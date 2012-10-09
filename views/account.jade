@@ -1,0 +1,10 @@
+include head
+
+  ul
+    li 
+      p #{locals.user.displayName}
+      ul
+        -for(var key in locals.user.emails)
+          li #{locals.user.emails[key].value}
+
+include foot

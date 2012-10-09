@@ -1,0 +1,10 @@
+!!! 5
+html
+  head
+    -if(locals.title)
+      title #{locals.title}
+    link(rel="stylesheet",href="/style.css")
+  body
+    -if(typeof locals.user != "undefined")
+      include loggedin
+    div 
